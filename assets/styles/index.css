@@ -165,7 +165,26 @@ nav>div>h1{
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right:var(--padding-horizontal);
-    padding-left:var(--padding-horizontal);
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
     justify-content: center;
+}
+#contactSection{
+    
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    height: 60vh;
+    
+
+}
+#contactSection > form {
+    padding: 20px;
+    width: 60vw;
+    margin: auto;
+    background-color: var(---secondary-colour);
+    border-radius: 30px;
+}
+#contactSection > form > div {
+    margin-top: 16px;
+
 }
