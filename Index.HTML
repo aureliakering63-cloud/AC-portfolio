@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="This is a portfolio of software engineering" />
   <title>MY PORFOLIO</title>
-   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -26,13 +26,13 @@
     </div>
     <!--navigation bar-->
 
-  
+
 
     <div>
       <a href="#homeSection" rel="noopener noreferrer">home</a>
       <a href="" target="_blank" rel="noopener noreferrer">projects</a>
       <a href="" target="_blank" rel="noopener noreferrer">about</a>
-      <a href=" "target="_blank" rel="noopener noreferrer">contact me</a>
+      <a href=" " target="_blank" rel="noopener noreferrer">contact me</a>
     </div>
   </nav>
   <!--home section-->
@@ -85,37 +85,43 @@
 
 
   </section>
-  <section id="about">
-    
-
-
-  </section>
   <section id="contactSection">
-  <form action="">
-    <h1>FORM</h1>
-    <h2>please fill in!</h2>
-    <div>
-      <label for="username">Name:</label>
-      <input type="text"  placeholder="e.g john doe"  name="Username">
-      
-    </div>
-    <div>
-      <label for="user Email">Email</label>
-      <input type="text" placeholder="e.g nex.gmail.com" name="useEmail">
-      <div>
+    <form action="">
+      <h1>contact me</h1>
+      <hr>
+
+      <div class="userNameEmail">
+        <div>
+          <label for="username">Name:</label><br>
+          <input type="text" placeholder="e.g john doe" name="Username">
+        </div>
+        <div>
+          <label for="userEmail">Email</label><br>
+          <input type="text" placeholder="e.g nex.gmail.com" name="useEmail">
+        </div>
+      </div>
+
+      <div class="userAgeBirthday">
+        <div class="age">
+          <label for="UserAge">Age:</label><br>
+          <input type="number" placeholder="0" name="useAge">
+
+        </div>
+        <div>
+          <label for="userDOB">Your Birthday:</label><br>
+          <input type="date" name="userDoB">
+        </div>
+      </div>
+
+
+      <div class="userMessage">
+        <label for="userMessage">User message:</label><br>
+        <textarea type="userMessage" name="userFile"></textarea>
         
-        <label for="UserAge">Age:</label>
-        <input type="number"  placeholder="0" name="useAge">
-      
       </div>
-      <div>
-        <label for="userDOB">Your Birthday:</label>
-        <input type="date"  name="userDoB">
-      </div>
-      <label for="userFile">Upload file:</label>
-      <input type="file" name="userFile" placeholder="choose file">
-    </div>
-  </form>
+
+      <input type="button" value="SUBMIT">
+    </form>
   </section>
 </body>
 

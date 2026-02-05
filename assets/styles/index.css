@@ -175,16 +175,136 @@ nav>div>h1{
     padding-right: var(--padding-horizontal);
     height: 60vh;
     
+    
 
 }
-#contactSection > form {
+#contactSection > form > .user {
+    display: flex;
+}
+#contactSection > form > .age {
+    display: flex;
+} 
+
+
+ #contactSection > form  {
     padding: 20px;
     width: 60vw;
     margin: auto;
     background-color: var(---secondary-colour);
     border-radius: 30px;
 }
-#contactSection > form > div {
-    margin-top: 16px;
-
+#contactSection > form > h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(---primary-colour);
 }
+#contactSection > form > .userNameEmail, .userAgeBirthday{ 
+    display: flex;
+}
+#contactSection > form  > .userNameEmail > div{
+    margin-top: 16px;
+    padding-left:12px ;
+    padding-right: 12px; 
+}
+#contactSection > form  > .userAgeBirthday > div{
+    margin-top: 16px;
+    padding-left:12px ;
+    padding-right: 12px; 
+}
+#contactSection > form > .userNameEmail, .userAgeBirthday> div > label{
+    font-weight: 500;
+}
+#projectSection .projects.card>button:hover{
+    margin-top: 16px;
+    color: #AC7BB4;
+    cursor: pointer;
+
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:var(---primary-colour);
+    margin-bottom: 16px;
+}
+#contactSection > form >  .userAgeBirthday> div > label{
+    font-weight: 500;
+
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:var(---primary-colour);
+    margin-bottom: 16px;
+}
+#contactSection > form > .userNameEmail> div > input{
+    all: unset;
+    border-radius: 12px;
+    margin-top: 10px;
+    height: 30px;
+    width: 25vw; 
+    padding-left:16px ;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    background-color: rgb(230, 230, 230);
+    font-size: 14px;
+    
+}
+#contactSection > form > .userAgeBirthday> div > input{
+    all: unset;
+    border-radius: 12px;
+    margin-top: 10px;
+    height: 30px;
+    width: 25vw; 
+    padding-left:16px ;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    background-color: rgb(230, 230, 230);
+    font-size: 14px;
+    
+}
+#contactSection > form >  .userMessage{
+       margin-top: 16px;
+    padding-left:12px ;
+    padding-right: 12px; 
+}
+#contactSection > form >  .userMessage > label{ 
+ font-weight: 500;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:var(---primary-colour);
+    margin-bottom: 16px;
+ 
+}
+
+#contactSection > form >div  >textarea{
+    all: unset;
+    border-radius: 12px;
+    padding-top: 4px;
+    padding-bottom:4px ;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 14px;
+    background-color: rgb(230, 230, 230);
+    width:50vw
+}
+#contactSection >form > input {
+     all: unset;
+    background-color: var(---primary-colour);
+    color: #fff;
+    padding-left: 4px;
+    padding-right: 8px;
+    padding-top:12px ;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    transition: 1s;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
